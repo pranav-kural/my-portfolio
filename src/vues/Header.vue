@@ -1,7 +1,7 @@
 <template>
   <header>
   <h1 class="uk-heading-line uk-text-center uk-margin-top"><span>Pranav Kural</span></h1>
-  <nav class="uk-navbar-container uk-margin" uk-navbar>
+  <nav class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-center">
 
         <ul class="uk-navbar-nav">
@@ -13,6 +13,7 @@
 
     </div>
   </nav>
+  <hr class="uk-divider-icon uk-margin-remove">
 </header>
 </template>
 
@@ -50,4 +51,8 @@ export default {
 </script>
 
 <style lang="css">
+/* Override navbar a tag height */
+.uk-navbar-nav>li>a {
+  height: 50px
+}
 </style>
