@@ -1,23 +1,23 @@
 <template>
   <div id="app">
     <site-header></site-header>
-    <landing-page></landing-page>
+    <about-me></about-me>
   </div>
 </template>
 
 <script>
 import header from './vues/Header.vue';
-import landingPage from './vues/Landing.vue';
+import aboutMe from './vues/AboutMe.vue';
 
 export default {
   name: 'app',
   components: {
     'site-header': header,
-    'landing-page': landingPage
+    'about-me': aboutMe
   }
 }
 </script>
 
 <style>
-/*@import "assets/css/styles.css";*/
+@import "assets/css/styles.css";
 </style>
