@@ -1,6 +1,5 @@
 var path = require('path')
 var webpack = require('webpack')
-var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './src/main.js',
@@ -46,10 +45,7 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map',
-  plugins: [new HtmlWebpackPlugin({
-      title: 'Pranav Kural - Portfolio'
-    })]
+  devtool: '#eval-source-map'
 }
 
 if (process.env.NODE_ENV === 'production') {
