@@ -1,0 +1,10 @@
+{
+ "name": "my-portfolio-dist",
+ "version": "1.0.0",
+ "description": "Portfolio of Pranav Kural",
+ "author": "Pranav Kural",
+ "private": true,
+ "scripts": {
+   "postinstall": "npm install express"
+ }
+}
