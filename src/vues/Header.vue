@@ -5,10 +5,10 @@
     <div class="uk-navbar-center">
 
         <ul class="uk-navbar-nav">
-            <li v-bind:class="{ 'uk-active': atAboutMe }" v-on:click="setCurrentSection('aboutMe')"><a href="#aboutMe">About Me</a></li>
-            <li v-bind:class="{ 'uk-active': atMyWork }" v-on:click="setCurrentSection('myWork')"><a href="#">My Work</a></li>
-            <li v-bind:class="{ 'uk-active': atMySkills }" v-on:click="setCurrentSection('mySkills')"><a href="#">My Skills</a></li>
-            <li v-bind:class="{ 'uk-active': atContactMe }" v-on:click="setCurrentSection('contactMe')"><a href="#">Contact Me</a></li>
+            <li v-bind:class="{ 'uk-active': atAboutMe }" v-on:click="setCurrentSection('aboutMe')"><a data-scroll  href="#aboutMe">About Me</a></li>
+            <li v-bind:class="{ 'uk-active': atMyWork }" v-on:click="setCurrentSection('myWork')"><a data-scroll  href="#myWork">My Work</a></li>
+            <li v-bind:class="{ 'uk-active': atMySkills }" v-on:click="setCurrentSection('mySkills')"><a data-scroll  href="#mySkills">My Skills</a></li>
+            <li v-bind:class="{ 'uk-active': atContactMe }" v-on:click="setCurrentSection('contactMe')"><a data-scroll  href="#contactMe">Contact Me</a></li>
         </ul>
 
     </div>
