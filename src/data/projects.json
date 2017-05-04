@@ -5,9 +5,9 @@
     "site_url": "http://gc200333253.computerstudi.es/teamNoClue/",
     "languages": ["HTML", "JavaScript", "CSS"],
     "category": ["School", "Personal"],
-    "sub-categories": ["AngularJS", "Semantic-UI", "MaterializeCSS", "Angular Material"],
+    "sub_categories": ["AngularJS", "Semantic-UI", "MaterializeCSS", "Angular Material"],
     "screenshot": "learn-sdlc.png",
-    "description": "This started out as a project from my System Analysis class, geared towards practicing SCRUM software developement methodology and learn more about the System Development Life Cycle. My team's name was 'TeamNoClue', cause we were bad at naming :p We had five developers in team, and all the roles were divided among us. For info on team members and their roles please go here: My role was that of Lead Developer and Designer. My task was to plan, design and develop the whole platform, inside which, individual components developed by other team members will be integrated to come up with a complete learning platform at end. As heavy as it sounds."
+    "description": "A fun way to learn System Development Life Cycle."
   },
   {
     "name": "Vendre",
@@ -15,7 +15,7 @@
     "site_url": "https://vendre.herokuapp.com/",
     "languages": ["JavaScript", "HTML", "CSS"],
     "category": ["School"],
-    "sub-categories": ["ExpressJS", "NodeJS", "Bootstrap", "MEAN", "MongoDB"],
+    "sub_categories": ["ExpressJS", "NodeJS", "Bootstrap", "MEAN", "MongoDB"],
     "screenshot": "vendre.png",
     "description": "A classified website built on Node, Express and MongoDB. A NodeJS application built on Express framework. Using passport for authentication and MongoDB and Mongoose for managing products and data."
   },
@@ -25,9 +25,9 @@
     "site_url": "https://kuralfamily.herokuapp.com/",
     "languages": ["JavaScript", "HTML", "CSS"],
     "category": ["School"],
-    "sub-categories": ["ExpressJS", "NodeJS", "Bootstrap"],
+    "sub_categories": ["ExpressJS", "NodeJS", "Bootstrap"],
     "screenshot": "my-family-website.png",
-    "description": "A small website about my cute family 🌼"
+    "description": "A small website about my cute family"
   },
   {
     "name": "ES6 Tutorial",
@@ -35,7 +35,7 @@
     "site_url": "",
     "languages": ["JavaScript", "HTML"],
     "category": ["School"],
-    "sub-categories": ["ES6", "ECMAScript2015"],
+    "sub_categories": ["ES6", "ECMAScript2015"],
     "screenshot": "",
     "description": "A tutorial introducing some of the new features in the ECMAScript 2015"
   },
@@ -45,7 +45,7 @@
     "site_url": "http://gc200333253.computerstudi.es/my-barrie-examiner/",
     "languages": ["JavaScript", "HTML", "CSS"],
     "category": ["School"],
-    "sub-categories": ["Site Design", "Site Planning"],
+    "sub_categories": ["Site Design", "Site Planning"],
     "screenshot": "my-barrie-examiner.png",
     "description": "My Barrie Examiner is a highly interactive news website."
   },
@@ -55,7 +55,7 @@
     "site_url": "http://gc200333253.computerstudi.es/cars/new_car.php",
     "languages": ["PHP", "JavaScript", "HTML", "CSS"],
     "category": ["School"],
-    "sub-categories": [],
+    "sub_categories": [],
     "screenshot": "cars-interactive-list.png",
     "description": "Interactive List of Cars, generated using PHP."
   },
@@ -65,7 +65,7 @@
     "site_url": "http://gc200333253.computerstudi.es/webifiy/",
     "languages": ["PHP", "JavaScript", "HTML", "CSS"],
     "category": ["School"],
-    "sub-categories": ["CRUD"],
+    "sub_categories": ["CRUD"],
     "screenshot": "webifiy.png",
     "description": "The Ultimate directory of some of the most amazing e-commerce stores. Demonstrating PHP skills along with doing CRUD operations with it."
   },
@@ -75,7 +75,7 @@
     "site_url": "http://gc200333253.computerstudi.es/Ajax-Live-Search-App/",
     "languages":  ["JavaScript", "HTML", "CSS", "jQuery"],
     "category": ["Personal"],
-    "sub-categories": ["AJAX", "jQuery"],
+    "sub_categories": ["AJAX", "jQuery"],
     "screenshot": "ajax-live-search-app.png",
     "description": "An AJAX based live search app. Requesting, searching and supplying the data through jQuery and AJAX."
   },
@@ -85,7 +85,7 @@
     "site_url": "http://gc200333253.computerstudi.es/Project/MovieArena/",
     "languages": ["PHP", "JavaScript", "HTML", "CSS"],
     "category": ["School"],
-    "sub-categories": ["PHP-ActiveRecord"],
+    "sub_categories": ["PHP-ActiveRecord"],
     "screenshot": "movie-arena.png",
     "description": "A PHP based movies collection website. Demonstrats self built php based MVC framework and handling of CRUD operations and authentication."
   },
@@ -95,7 +95,7 @@
     "site_url": "https://pranavkural.me/",
     "languages": ["JavaScript", "HTML", "CSS", "Vue"],
     "category": ["Personal", "Professional"],
-    "sub-categories": ["VueJS"],
+    "sub_categories": ["VueJS"],
     "screenshot": "my-porfolio-website.png",
     "description": "My portfolio website built on top on VueJS"
   },
@@ -105,7 +105,7 @@
     "site_url": "",
     "languages": ["Java"],
     "category": ["School"],
-    "sub-categories": [],
+    "sub_categories": [],
     "screenshot": "java-horse-race.png",
     "description": ""
   },
@@ -115,7 +115,7 @@
     "site_url": "",
     "languages": ["Java"],
     "category": ["Personal"],
-    "sub-categories": [],
+    "sub_categories": [],
     "screenshot": "java-word-puzzle.png",
     "description": ""
   },
@@ -125,7 +125,7 @@
     "site_url": "",
     "languages": ["C#"],
     "category": ["School", "Personal"],
-    "sub-categories": [],
+    "sub_categories": [],
     "screenshot": "unity-c-slot-machine.png",
     "description": "A slot machine game built using Unity platform and C#"
   },
@@ -135,7 +135,7 @@
     "site_url": "",
     "languages": ["C#"],
     "category": ["School"],
-    "sub-categories": [],
+    "sub_categories": [],
     "screenshot": "dollar-computers.png",
     "description": "A C# powered application built using Entity Framework to sell computers and hardware and store orders."
   },
@@ -145,7 +145,7 @@
     "site_url": "",
     "languages": ["C#"],
     "category": ["School"],
-    "sub-categories": [],
+    "sub_categories": [],
     "screenshot": "movie-bonanza.png",
     "description": "A C# powered app to stream Movies on desktop."
   },
@@ -155,9 +155,9 @@
     "site_url": "",
     "languages": ["C#"],
     "category": ["School"],
-    "sub-categories": [],
+    "sub_categories": [],
     "screenshot": "auto-center-app.png",
-    "description": "A project that determines the total amount due for the purchase of a vehicle based	on accessories and options selected and a trade-in value"
+    "description": "A project that determines the total amount due for the purchase of a vehicle based on accessories and options selected and a trade-in value"
   },
   {
     "name": "Sharp Mail Order Application",
@@ -165,7 +165,7 @@
     "site_url": "",
     "languages": ["C#"],
     "category": ["School"],
-    "sub-categories": [],
+    "sub_categories": [],
     "screenshot": "sharp-mail-order-app.png",
     "description": "A windows form for a mail order company to calculate sales bonus."
   },
@@ -175,7 +175,7 @@
     "site_url": "",
     "languages": ["PHP"],
     "category": ["School"],
-    "sub-categories": ["Technical Communication"],
+    "sub_categories": ["Technical Communication"],
     "screenshot": "PhpStorm-manual.png",
     "description": "A manual on usage of Jetbrain's most popular web development IDE - PhpStorm."
   },
@@ -185,7 +185,7 @@
     "site_url": "",
     "languages": [],
     "category": ["School"],
-    "sub-categories": ["Project Management"],
+    "sub_categories": ["Project Management"],
     "screenshot": "rocky-mountain-college-project.png",
     "description": "A RFP response project for Rocky Mountain College website redesign project."
   },
@@ -195,7 +195,7 @@
     "site_url": "",
     "languages": ["Java"],
     "category": ["School"],
-    "sub-categories": ["Swing", "AWT", "GUI"],
+    "sub_categories": ["Swing", "AWT", "GUI"],
     "screenshot": "gas-station-software-application.png",
     "description": ""
   }
