@@ -1,6 +1,6 @@
 <template>
   <header>
-  <h1 class="uk-heading-line uk-text-center uk-margin-top"><span>Pranav Kural</span></h1>
+  <h1 class="uk-heading-line uk-text-center uk-margin-top"><span class=" uk-text-uppercase">Pranav • Kural</span></h1>
   <nav class="uk-navbar-container" uk-navbar>
     <div class="uk-navbar-center">
 
