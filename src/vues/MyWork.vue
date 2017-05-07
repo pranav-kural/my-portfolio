@@ -19,7 +19,7 @@
             <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'Project Management'">Project Management</a></li>
           </ul>
         </div>
-        <div class="uk-grid uk-child-width-1-3@xl uk-child-width-1-2@l uk-child-width-1-1@s uk-width-expand">
+        <div class="uk-grid uk-child-width-1-3@xl uk-child-width-1-2@m uk-child-width-1-1@s uk-width-expand">
           <div class="uk-card uk-card-default uk-card-body" v-for="project in listOfProjects" uk-scrollspy="cls:uk-animation-fade">
             <div class="project_cards">
               <div class="uk-card-header uk-cover-container">
@@ -64,26 +64,23 @@ export default {
   data() {
     return {
       projects: projects,
-      selectedLanguage: "all"
+      selectedLanguage: "VueJS"
     }
   },
   computed: {
     // return the filtered list of projects
     listOfProjects: function () {
       // check the criteria
-      if (this.selectedLanguage == "all") {
-        // return all projects
-        return this.projects;
-      } else {
-        return projects.filter((project) => {
-          // return only projects that contain the selected language
+      return (this.selectedLanguage == "all") ?
+      // return all projects
+      this.projects :
+      // return only projects that contain the selected language
+      projects.filter((project) => {
           return project.languages.concat(project.sub_categories).includes(this.selectedLanguage);
-        });
-      }
+      });
     }
   }
 }
-
 </script>
 
 <style lang="css">
