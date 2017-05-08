@@ -1,6 +1,7 @@
 <template lang="html">
-  <div class="uk-flex uk-flex-center uk-padding-small">
+  <div class="uk-flex uk-flex-center uk-padding-small@m">
     <div class="uk-container-small">
+      <h2 class="uk-visible@m uk-heading-divider uk-text-center">My Java Skills</h2>
       <p><strong>Java</strong> was the first <strong>Object Oriented</strong> and <strong>statically typed language</strong> I learnt. I've took three courses during my study in the Diploma programme which were primarly based on Java. Following are the skills I've gained working with Java programming lanugage:</p>
       <ul class="uk-list uk-list-divider skillPoints uk-margin-left uk-padding-small">
         <li>Knowledge and understanding of <abbr title="Object Oriented Programming"><strong>OOP</strong></abbr> concepts like Inheritance, Encapsulation, Polymorphism, and Abstraction</li>

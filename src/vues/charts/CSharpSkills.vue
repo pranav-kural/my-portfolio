@@ -1,6 +1,7 @@
 <template lang="html">
   <div class="uk-flex uk-flex-center uk-padding-small">
     <div class="uk-container-small">
+      <h2 class="uk-visible@m uk-heading-divider uk-text-center">My C# and .NET Skills</h2>
       <p><strong>VBScript</strong> was the first dynamic language that I learnt in my High School. Then moving on to <strong>ASP</strong> and then finally developing desktop application using <strong>C#</strong> and <strong>.NET framework</strong>. Following some of my skills in this area:</p>
       <ul class="uk-list uk-list-divider skillPoints uk-margin-left uk-padding-small">
         <li><strong>Rapid Application Development</strong> using .NET and Windows Forms</li>

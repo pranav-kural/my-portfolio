@@ -1,10 +1,11 @@
 <template lang="html">
   <div class="uk-column-1-1">
     <div class="uk-text-small uk-text-center">
+      <h2 class="uk-visible@m uk-heading-divider">My JavaScript Skills</h2>
       <p>TBH, when I started learning JavaScript for the very first time, I hated it. But now that I've learnt it more deeply and worked with, I absolutely love it &#x1F60D</p>
       <p class="uk-text-meta uk-text-center">My skills in JavaScripts:</p>
     </div>
-    <div class="uk-grid uk-child-width-1-3@m uk-child-width-1-1@s  uk-flex uk-flex-middle">
+    <div class="uk-grid uk-child-width-1-3@m uk-child-width-1-1@s uk-flex uk-flex-middle">
       <ul class="uk-list uk-list-divider">
         <li>Good understanding of the JavaScript language</li>
         <li>TypeScript and CoffeScript</li>
@@ -13,7 +14,9 @@
         <li>Up-to-date with ES6 or ECMAScript 2015</li>
         <li>Using trancompilers, task runners and other build tools like Babel, Browserify, Gulp, Grunt and Webpack</li>
     </ul>
-    <div id="gaugeChart" style="width: 400px; height: 400px; margin: 0 auto"></div>
+    <div class="uk-margin-top uk-visible@m">
+      <div id="gaugeChart" style="width: 400px; height: 400px; margin: 0 auto"></div>
+    </div>
     <ul class="uk-list uk-list-divider">
       <li>MEAN Stack</li>
       <li>Knowledge of AngularJS, Angular (2 & 4), React, Vue.js and Inferno.js</li>
@@ -42,7 +45,7 @@ let options = {
     },
 
     title: {
-        text: null,
+        text: 'Top 3 frameworks I\'ve Worked With',
     },
 
     tooltip: {

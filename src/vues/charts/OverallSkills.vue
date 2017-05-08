@@ -1,11 +1,22 @@
 <template lang="html">
-  <div class="uk-grid">
-    <div class="uk-width-3-5@l uk-width-1-1@s">
-    <highcharts v-bind:options="options"></highcharts>
+  <div class="uk-column-1-1">
+    <div class="uk-visible@m ">
+      <h2 class="uk-heading-divider uk-text-center">My Overall Programming Skills</h2>
+      <div class="uk-grid">
+        <div class="uk-width-3-5@l uk-width-1-1@s">
+        <highcharts v-bind:options="options"></highcharts>
+        </div>
+        <div class="uk-width-expand@l uk-width-1-1@s" style="font-family: 'Montserrat'">
+          <p>I <span style="color: #E81224">&#x2764</span> programming. Be it Web &#x1F60D, Software &#x1f48e or Mobile app development &#x1F49F, I absolutely enjoy them all.</p>
+          <p class="uk-text-small">I've gained a valuable insight into various spheres of the web and software industry, ranging from Web development based on MEAN stack, using PHP (Laravel) or a CMS (Shopify & WordPress) to Software development based on Rapid Application Development methodology as well as building desktop and software applications from scratch using programming languages such as C# (.NET framework) and Java. I've got extensive exposure to working with relational databases using MySQL as well as working with non-relational databases like MongoDB.</p><p class="uk-text-small">I've got the opportunity to work with a lot of frameworks and libraries: <strong>Web Development frameworks</strong>(MVC/MVVM/MV*) like AngularJS, Angular (2 & 4), React, Vue.js, Inferno, <strong>Object Relational Mapping frameworks</strong> like PHP ActiveRecord and Entity Framework, and <strong>CSS frameworks</strong> like Bootstrap, Zurb Foundtaion, Semantic-UI, Uikit etc.</p>
+        </div>
+      </div>
     </div>
-    <div class="uk-width-expand@l uk-width-1-1@s" style="font-family: 'Montserrat'">
-      <p>I <span style="color: #E81224">&#x2764</span> programming. Be it Web &#x1F60D, Software &#x1f48e or Mobile app development &#x1F49F, I absolutely enjoy them all.</p>
-      <p class="uk-text-small">I've gained a valuable insight into various spheres of the web and software industry, ranging from Web development based on MEAN stack, using PHP (Laravel) or a CMS (Shopify & WordPress) to Software development based on Rapid Application Development methodology as well as building desktop and software applications from scratch using programming languages such as C# (.NET framework) and Java. I've got extensive exposure to working with relational databases using MySQL as well as working with non-relational databases like MongoDB.</p><p class="uk-text-small">I've got the opportunity to work with a lot of frameworks and libraries: <strong>Web Development frameworks</strong>(MVC/MVVM/MV*) like AngularJS, Angular (2 & 4), React, Vue.js, Inferno, <strong>Object Relational Mapping frameworks</strong> like PHP ActiveRecord and Entity Framework, and <strong>CSS frameworks</strong> like Bootstrap, Zurb Foundtaion, Semantic-UI, Uikit etc.</p>
+    <div class="uk-hidden@m uk-section">
+      <div class="uk-container" style="font-family: 'Montserrat'">
+        <p>I <span style="color: #E81224">&#x2764</span> programming. Be it Web &#x1F60D, Software &#x1f48e or Mobile app development &#x1F49F, I absolutely enjoy them all.</p>
+        <p class="uk-text-small">I've gained a valuable insight into various spheres of the web and software industry, ranging from Web development based on MEAN stack, using PHP (Laravel) or a CMS (Shopify & WordPress) to Software development based on Rapid Application Development methodology as well as building desktop and software applications from scratch using programming languages such as C# (.NET framework) and Java. I've got extensive exposure to working with relational databases using MySQL as well as working with non-relational databases like MongoDB.</p><p class="uk-text-small">I've got the opportunity to work with a lot of frameworks and libraries: <strong>Web Development frameworks</strong>(MVC/MVVM/MV*) like AngularJS, Angular (2 & 4), React, Vue.js, Inferno, <strong>Object Relational Mapping frameworks</strong> like PHP ActiveRecord and Entity Framework, and <strong>CSS frameworks</strong> like Bootstrap, Zurb Foundtaion, Semantic-UI, Uikit etc.</p>
+      </div>
     </div>
   </div>
 </template>
