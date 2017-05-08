@@ -7,10 +7,11 @@
     <div class="uk-grid uk-child-width-1-3@m uk-child-width-1-1@s  uk-flex uk-flex-middle">
       <ul class="uk-list uk-list-divider">
         <li>Good understanding of the JavaScript language</li>
-        <li>Up-to-date with ES6 or ECMAScript 2015</li>
         <li>TypeScript and CoffeScript</li>
         <li>JQuery and JQuery UI</li>
         <li>NodeJS (Express, Meteor)</li>
+        <li>Up-to-date with ES6 or ECMAScript 2015</li>
+        <li>Using trancompilers, task runners and other build tools like Babel, Browserify, Gulp, Grunt and Webpack</li>
     </ul>
     <div id="gaugeChart" style="width: 400px; height: 400px; margin: 0 auto"></div>
     <ul class="uk-list uk-list-divider">
