@@ -6,10 +6,9 @@
       <li class="uk-active"><a href="">Overall</a></li>
       <li><a href="">JavaScript</a></li>
       <li><a href="">Java</a></li>
-      <li><a href="">CSS</a></li>
-      <li><a href="">HTML</a></li>
       <li><a href="">C#</a></li>
-      <li><a href="">NodeJS</a></li>
+      <li><a href="">PHP</a></li>
+      <li><a href="">HTML & CSS</a></li>
       <li><a href="">Others</a></li>
     </ul>
     <ul class="uk-switcher uk-margin">
@@ -19,8 +18,12 @@
       <li>
         <javascript-skills></javascript-skills>
       </li>
-      <li></li>
-      <li></li>
+      <li>
+        <java-skills></java-skills>
+      </li>
+      <li>
+        <csharp-skills></csharp-skills>
+      </li>
       <li></li>
       <li></li>
       <li></li>
@@ -33,13 +36,16 @@
 // import the charts/graphs
 import OverallSkills from './charts/OverallSkills.vue'
 import JavaScriptSkills from './charts/JavaScriptSkills.vue'
-
+import JavaSkills from './charts/JavaSkills.vue';
+import CSharpSkills from './charts/CSharpSkills.vue';
 
 export default {
   name: "mySkills",
   components: {
     'overall-skills': OverallSkills,
-    'javascript-skills': JavaScriptSkills
+    'javascript-skills': JavaScriptSkills,
+    'java-skills': JavaSkills,
+    'csharp-skills': CSharpSkills
   }
 }
 </script>
