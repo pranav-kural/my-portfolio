@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="uk-container">
+  <div id="mySkills" class="uk-container">
     <h1 class="uk-heading-divider uk-text-center">MY SKILLS<p class="uk-text-center uk-text-meta">The skills and knowledge I've gained from schooling, self-learning and by building the awesome stuff shown above 😊</p></h1>
     <h3 class="uk-heading-divider uk-text-left">Programming</h3>
     <ul class="uk-child-width-expand uk-visible@s" uk-tab="animation: uk-animation-fade">
@@ -24,7 +24,9 @@
       <li>
         <csharp-skills></csharp-skills>
       </li>
-      <li></li>
+      <li>
+        <php-skills></php-skills>
+      </li>
       <li></li>
       <li></li>
     </ul>
@@ -38,6 +40,7 @@ import OverallSkills from './charts/OverallSkills.vue'
 import JavaScriptSkills from './charts/JavaScriptSkills.vue'
 import JavaSkills from './charts/JavaSkills.vue';
 import CSharpSkills from './charts/CSharpSkills.vue';
+import PHPSkills from './charts/PHPSkills.vue';
 
 export default {
   name: "mySkills",
@@ -45,7 +48,8 @@ export default {
     'overall-skills': OverallSkills,
     'javascript-skills': JavaScriptSkills,
     'java-skills': JavaSkills,
-    'csharp-skills': CSharpSkills
+    'csharp-skills': CSharpSkills,
+    'php-skills': PHPSkills
   }
 }
 </script>
