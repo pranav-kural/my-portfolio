@@ -1,11 +1,26 @@
 <template lang="html">
   <div class="uk-column-1-1">
-    <div class="uk-text-small">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pharetra, ex et tincidunt vehicula, dolor leo tempus quam, quis tincidunt ipsum felis id tortor. Integer mattis dui at tortor convallis tempor. Nam congue quam velit, eu viverra velit mattis at. Quisque gravida eu felis eget egestas. In bibendum eros eget erat placerat, quis convallis diam dictum. Suspendisse viverra placerat dolor, non egestas lectus convallis in. Nullam ultricies pharetra mauris, in consectetur lorem venenatis quis. Maecenas eget condimentum libero. Donec sodales luctus eleifend.</p>
+    <div class="uk-text-small uk-text-center">
+      <p>TBH, when I started learning JavaScript for the very first time, I hated it. But now that I've learnt it more deeply and worked with, I absolutely love it &#x1F60D</p>
+      <p class="uk-text-meta uk-text-center">My skills in JavaScripts:</p>
     </div>
-    <div class="">
-      <div id="gaugeChart" style="width: 400px; height: 400px; margin: 0 auto"></div>
-    </div>
+    <div class="uk-grid uk-child-width-1-3@m uk-child-width-1-1@s  uk-flex uk-flex-middle">
+      <ul class="uk-list uk-list-divider">
+        <li>Good understanding of the JavaScript language</li>
+        <li>Up-to-date with ES6 or ECMAScript 2015</li>
+        <li>TypeScript and CoffeScript</li>
+        <li>JQuery and JQuery UI</li>
+        <li>NodeJS (Express, Meteor)</li>
+    </ul>
+    <div id="gaugeChart" style="width: 400px; height: 400px; margin: 0 auto"></div>
+    <ul class="uk-list uk-list-divider">
+      <li>MEAN Stack</li>
+      <li>Knowledge of AngularJS, Angular (2 & 4), React, Vue.js and Inferno.js</li>
+      <li>Knowledge of Asynchronous programming (observable streams and using promises).</li>
+      <li>Planning, creating and integrating Web APIs and working with external APIs</li>
+      <li>Knowledge and understanding of the state management libraries like Redux &#x1F499, RxJS and Vuex.</li>
+  </ul>
+   </div>
   </div>
 </template>
 
@@ -177,4 +192,7 @@ export default {
 </script>
 
 <style lang="css">
+.uk-column-1-1 p {
+  font-family: Montserrat;
+}
 </style>
