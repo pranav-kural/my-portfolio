@@ -28,7 +28,9 @@
         <li>
           <php-skills></php-skills>
         </li>
-        <li></li>
+        <li>
+          <html-css-skills></html-css-skills>
+        </li>
         <li></li>
       </ul>
     </div>
@@ -64,10 +66,15 @@
                 <php-skills></php-skills>
               </div>
           </li>
+          <li>
+              <h3 class="uk-accordion-title">HTML & CSS skills</h3>
+              <div class="uk-accordion-content">
+                <html-css-skills></html-css-skills>
+              </div>
+          </li>
       </ul>
     </div>
   </div>
-
 </template>
 
 <script>
@@ -77,6 +84,7 @@ import JavaScriptSkills from './charts/JavaScriptSkills.vue'
 import JavaSkills from './charts/JavaSkills.vue';
 import CSharpSkills from './charts/CSharpSkills.vue';
 import PHPSkills from './charts/PHPSkills.vue';
+import HTML_CSS_Skills from './charts/HTML_CSS_Skills.vue';
 
 export default {
   name: "mySkills",
@@ -85,7 +93,8 @@ export default {
     'javascript-skills': JavaScriptSkills,
     'java-skills': JavaSkills,
     'csharp-skills': CSharpSkills,
-    'php-skills': PHPSkills
+    'php-skills': PHPSkills,
+    'html-css-skills': HTML_CSS_Skills
   }
 }
 </script>
