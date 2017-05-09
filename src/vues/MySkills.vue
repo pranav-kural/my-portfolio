@@ -31,7 +31,9 @@
         <li>
           <html-css-skills></html-css-skills>
         </li>
-        <li></li>
+        <li>
+          <other-skills></other-skills>
+        </li>
       </ul>
     </div>
     <div class="uk-hidden@m">
@@ -72,6 +74,12 @@
                 <html-css-skills></html-css-skills>
               </div>
           </li>
+          <li>
+              <h3 class="uk-accordion-title">Other Programming skills</h3>
+              <div class="uk-accordion-content">
+                <other-skills></other-skills>
+              </div>
+          </li>
       </ul>
     </div>
   </div>
@@ -85,6 +93,7 @@ import JavaSkills from './charts/JavaSkills.vue';
 import CSharpSkills from './charts/CSharpSkills.vue';
 import PHPSkills from './charts/PHPSkills.vue';
 import HTML_CSS_Skills from './charts/HTML_CSS_Skills.vue';
+import OtherSkills from './charts/OtherSkills.vue';
 
 export default {
   name: "mySkills",
@@ -94,7 +103,8 @@ export default {
     'java-skills': JavaSkills,
     'csharp-skills': CSharpSkills,
     'php-skills': PHPSkills,
-    'html-css-skills': HTML_CSS_Skills
+    'html-css-skills': HTML_CSS_Skills,
+    'other-skills': OtherSkills
   }
 }
 </script>
