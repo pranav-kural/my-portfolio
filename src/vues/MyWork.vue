@@ -64,7 +64,7 @@ export default {
   data() {
     return {
       projects: projects,
-      selectedLanguage: "VueJS"
+      selectedLanguage: "all"
     }
   },
   computed: {
