@@ -1,7 +1,7 @@
 <template>
   <div id="aboutMeContainer" uk-grid>
     <div class="uk-width-2-5 uk-cover-container">
-      <img src="src/assets/images/portfoliopicture.jpg" alt="" uk-cover>
+      <img src="src/assets/Images/portfoliopicture.jpg" alt="" uk-cover>
     </div>
     <div class="uk-width-3-5 uk-flex uk-flex-center uk-flex-middle">
       <div>
