@@ -6,9 +6,9 @@
       <div class="uk-grid">
         <div id="projectsFilter" class="uk-visible@m uk-width-auto">
           <ul class="uk-tab-left" uk-tab>
-            <li class="uk-active uk-padding-small"><a href="" v-on:click="selectedLanguage = 'all'">ALL</a></li>
+            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'all'">ALL</a></li>
             <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'JavaScript'">JavaScript</a></li>
-            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'NodeJS'">NodeJS</a></li>
+            <li class="uk-active uk-padding-small"><a href="" v-on:click="selectedLanguage = 'NodeJS'">NodeJS</a></li>
             <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'C#'">C#</a></li>
             <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'Java'">Java</a></li>
             <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'PHP'">PHP</a></li>
@@ -64,7 +64,7 @@ export default {
   data() {
     return {
       projects: projects,
-      selectedLanguage: "all"
+      selectedLanguage: "NodeJS"
     }
   },
   computed: {
