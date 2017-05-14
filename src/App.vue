@@ -4,6 +4,8 @@
     <!-- website components -->
     <site-header></site-header>
     <about-me></about-me>
+    <my-education></my-education>
+    <my-work-experience></my-work-experience>
     <my-work></my-work>
     <my-skills></my-skills>
     <contact-me></contact-me>
@@ -15,6 +17,8 @@
 // Importing the website compenents
 import header from './vues/Header.vue';
 import aboutMe from './vues/AboutMe.vue';
+import myEduction from './vues/MyEducation.vue';
+import myWorkExperience from './vues/myWorkExperience.vue';
 import myWork from './vues/MyWork.vue';
 import mySkills from './vues/MySkills.vue';
 import contactMe from './vues/ContactMe.vue';
@@ -26,6 +30,8 @@ export default {
   components: {
     'site-header': header,
     'about-me': aboutMe,
+    'my-education': myEduction,
+    'my-work-experience': myWorkExperience,
     'my-work': myWork,
     'my-skills': mySkills,
     'contact-me': contactMe,
