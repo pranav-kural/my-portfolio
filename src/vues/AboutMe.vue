@@ -19,7 +19,7 @@ export default {
 <style lang="css">
 div#aboutMeBackground {
   height: auto;
-  background: url('image.jpg');
+  background: url('images/aboutme_background.jpg');
   background-size: 75%;
 }
 
