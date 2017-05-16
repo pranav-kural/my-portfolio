@@ -1,10 +1,18 @@
 <template>
-  <div id="aboutMeBackground" class="">
-    <div id="aboutMeContainer" class="uk-flex uk-flex-right uk-flex-middle">
-      <div class="uk-section">
-        <div class="uk-container-small uk-padding">
-          <p>An ambitious problem solver with a passion for making the web a better and beautiful place. Good problem solving and critical thinking skills to tackle problems and handle such situations with a reliable solution, evolved from persistent work with programming languages and coding. Understanding of general employability skills and the importance of working as part of a team, learning from others and developing as a professional.</p>
-        </div>
+  <div id="container" uk-grid>
+     <div id="aboutMeBackground" class="uk-width-2-5">
+       <div></div>
+     </div>
+     <div class="uk-width-3-5 uk-flex uk-flex-center uk-padding">
+       <div id="aboutMeContainer" class="uk-padding">
+         <h1>Hey, There!</h1>
+         <p>
+           I'm Pranav. An ambitious problem solver with a passion and love for developing applications and programming.
+           I’m a Web Developer by profession, and a curiously minded individual who loves to learn new things. I believe in constant learning and building good relationships
+           with everyone. I’m an intrinsically motivated person who believes in giving the best in everything I do.
+           Besides the technical stuff, I enjoy cooking, hiking, playing football, basketball, chess and staying fit. Please explore my portfolio and get in touch with me if you have any questions.
+         </p>
+       </div>
       </div>
     </div>
   </div>
@@ -18,35 +26,26 @@ export default {
 
 <style lang="css">
 div#aboutMeBackground {
-  height: auto;
-  background: url('images/aboutme_background.jpg');
-  background-size: 75%;
+  background: url('images/background.jpg') no-repeat;
+  background-size: cover;
 }
 
-div#aboutMeContainer {
+div#aboutMeBackground div {
+  min-height: 100%;
+  min-width: 100%;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+82&0+36,1+100 */
+  background: -moz-linear-gradient(left,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 36%, rgba(255,255,255,0.72) 82%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 36%,rgba(255,255,255,0.72) 82%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 36%,rgba(255,255,255,0.72) 82%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+
+div#container {
   min-height: 80vh;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+70&0+0,1+50 */
-  background: -moz-linear-gradient(-45deg,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 70%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 70%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 50%,rgba(255,255,255,1) 70%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-}
-
-div#aboutMeContainer .uk-section {
-  background: #EEEEEE;
-  padding: 0;
-  border-radius: 50px;
-  opacity: 0.8;
-  margin-left: 30%;
-  color: #000;
-}
-
-div#aboutMeContainer .uk-container-small {
-  max-width: 500px;
 }
 
 div#aboutMeContainer {
-  justify-content: center;
+  border-radius: 30px;
 }
 </style>
