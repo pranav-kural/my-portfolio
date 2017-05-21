@@ -1,24 +1,20 @@
 <template lang="html">
-  <div class="uk-column-1-1">
-    <div class="uk-visible@m ">
-      <h2 class="uk-heading-divider uk-text-center">My Overall Programming Skills</h2>
-      <div class="uk-grid">
-        <div class="uk-width-3-5@l uk-width-1-1@s">
-        <highcharts v-bind:options="options"></highcharts>
-        </div>
-        <div class="uk-width-expand@l uk-width-1-1@s" style="font-family: 'Montserrat'">
-          <p>I <span style="color: #E81224">&#x2764</span> programming. Be it Web &#x1F60D, Software &#x1f48e or Mobile app development &#x1F49F, I absolutely enjoy them all.</p>
-          <p class="uk-text-small">I've gained a valuable insight into various spheres of the web and software industry, ranging from Web development based on MEAN stack, using PHP (Laravel) or a CMS (Shopify & WordPress) to Software development based on Rapid Application Development methodology as well as building desktop and software applications from scratch using programming languages such as C# (.NET framework) and Java. I've got extensive exposure to working with relational databases using MySQL as well as working with non-relational databases like MongoDB.</p><p class="uk-text-small">I've got the opportunity to work with a lot of frameworks and libraries: <strong>Web Development frameworks</strong>(MVC/MVVM/MV*) like AngularJS, Angular (2 & 4), React, Vue.js, Inferno, <strong>Object Relational Mapping frameworks</strong> like PHP ActiveRecord and Entity Framework, and <strong>CSS frameworks</strong> like Bootstrap, Zurb Foundtaion, Semantic-UI, Uikit etc.</p>
+      <div class="uk-section" style="background-color: #fff;margin:3em; padding-top:0; padding-bottom:0">
+        <div class="uk-padding-small uk-child-width-1-1" style="font-family: 'Montserrat'" uk-grid>
+          <p class="uk-text-small">
+            I've gained a valuable insight into various spheres of the web and software industry, ranging from Web development based on MEAN stack, using PHP (Laravel) or a CMS (Shopify & WordPress) to Software development based on Rapid Application Development methodology as well as building desktop and software applications from scratch using programming languages such as C# (.NET framework), Java and Python. I've got extensive exposure to working with relational databases using MySQL and Microsoft SQL Server as well as working with non-relational databases like MongoDB and Redis.
+          </p>
+          <p class="uk-text-small">
+            I've got the opportunity to work with a lot of frameworks and libraries: <strong>Web Development frameworks</strong>(MVC/MVVM/MV*) like AngularJS, Angular (2 & 4), React, Vue.js, Inferno, <strong>Object Relational Mapping frameworks</strong> like PHP ActiveRecord and Entity Framework, and <strong>CSS frameworks</strong> like Bootstrap, Zurb Foundtaion, Semantic-UI, Uikit etc.
+          </p>
+          <p class="uk-text-small">
+            Besides the techinal skills, I've learnt to be more professional and a better communicator, espically through my work experience which involved working in a team and interacting with the clients. I'm passionate about what I do, and believe in being punctual and responsible for my tasks and duties. I've good time management skills, and a critical and analytical mindset. I'm a fast learner and love to learn new things. I'm self-motivated with a desire to perform my best at everything I do. 
+          </p>
+          <div>
+            <highcharts v-bind:options="options"></highcharts>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="uk-hidden@m uk-section">
-      <div class="uk-container" style="font-family: 'Montserrat'">
-        <p>I <span style="color: #E81224">&#x2764</span> programming. Be it Web &#x1F60D, Software &#x1f48e or Mobile app development &#x1F49F, I absolutely enjoy them all.</p>
-        <p class="uk-text-small">I've gained a valuable insight into various spheres of the web and software industry, ranging from Web development based on MEAN stack, using PHP (Laravel) or a CMS (Shopify & WordPress) to Software development based on Rapid Application Development methodology as well as building desktop and software applications from scratch using programming languages such as C# (.NET framework) and Java. I've got extensive exposure to working with relational databases using MySQL as well as working with non-relational databases like MongoDB.</p><p class="uk-text-small">I've got the opportunity to work with a lot of frameworks and libraries: <strong>Web Development frameworks</strong>(MVC/MVVM/MV*) like AngularJS, Angular (2 & 4), React, Vue.js, Inferno, <strong>Object Relational Mapping frameworks</strong> like PHP ActiveRecord and Entity Framework, and <strong>CSS frameworks</strong> like Bootstrap, Zurb Foundtaion, Semantic-UI, Uikit etc.</p>
-      </div>
-    </div>
-  </div>
 </template>
 
 <script>
@@ -33,7 +29,7 @@ var options = {
         type: 'column'
     },
     title: {
-        text: null
+        text: "Overall programming skills/experience"
     },
     subtitle: {
         text: null
@@ -57,7 +53,7 @@ var options = {
         max: 100,
         tickInterval: 50,
         title: {
-            text: 'Skill Level',
+            text: null,
             style: { "color": "#333333", "fontSize": "14px","word-spacing": "10px" }
         },
         labels: {
@@ -82,20 +78,7 @@ var options = {
         column: {
             pointPadding: 0.2,
             borderWidth: 0
-        },
-        series: {
-            cursor: 'pointer',
-            point: {
-                events: {
-                    click: function () {
-                        switch (this.category) {
-                        	case "Java": alert("This is the awesome " + this.category); break;
-                          default: alert("Someone clicked");
-                        }
-                    }
-                }
-            }
-       }
+        }
     },
     series: [{
     		showInLegend: false,

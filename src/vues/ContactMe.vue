@@ -54,13 +54,18 @@
 </template>
 
 <script>
+
+let contacter_name = '';
+let contacter_email = '';
+let contacter_message = '';
+
 export default {
   name: 'contactMe',
   data() {
     return {
-      contacter_name: '',
-      contacter_email: '',
-      contacter_message: ''
+      contacter_name: contacter_name,
+      contacter_email: contacter_email,
+      contacter_message: contacter_message
     }
   }
 }
