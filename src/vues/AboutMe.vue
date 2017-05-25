@@ -10,10 +10,7 @@
        <div id="aboutMeContainer" class="uk-padding">
          <h1>Hey, There!</h1>
          <p>
-           I'm Pranav. An ambitious problem solver with a passion and love for developing applications and programming.
-           I’m a Web Developer by profession, and a curiously minded individual who loves to learn new things. I believe in constant learning and building good relationships
-           with everyone. I’m an intrinsically motivated person who believes in giving the best in everything I do.
-           Besides the technical stuff, I enjoy cooking, hiking, playing football, basketball, chess and staying fit. Please explore my portfolio and get in touch with me if you have any questions.
+           I'm Pranav. An ambitious problem solver with a passion and love for developing applications and programming. I’m an enthusiastic individual who loves to learn new things. I believe in taking up the responsibilities, being punctual in my work and having good work ethics. I’m a constant learner and love building good relationships with everyone. I’m intrinsically motivated and believe in giving my best at everything I do. I understand the importance of working as a part of a team and learning from others and developing as a professional, but I’m also comfortable to perform optimally when working individually. Besides the technical skills, I enjoy cooking food, hiking, playing basketball, chess and staying fit.
          </p>
        </div>
       </div>
