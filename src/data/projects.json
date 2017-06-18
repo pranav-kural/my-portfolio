@@ -36,7 +36,7 @@
     "languages": ["JavaScript", "HTML"],
     "category": ["School"],
     "sub_categories": ["ES6", "ECMAScript2015"],
-    "screenshot": "",
+    "screenshot": "es6-tutorial.png",
     "description": "A tutorial introducing some of the new features in the ECMAScript 2015"
   },
   {
@@ -110,14 +110,14 @@
     "description": ""
   },
   {
-    "name": "Java Word Puzzle",
-    "repo_url": "https://github.com/pranav-kural/Java-Word-Puzzle",
+    "name": "Java Word Search Puzzle",
+    "repo_url": "https://github.com/pranav-kural/Java-Word-Search-Puzzle",
     "site_url": "",
     "languages": ["Java"],
     "category": ["Personal"],
     "sub_categories": [],
-    "screenshot": "java-word-puzzle.png",
-    "description": ""
+    "screenshot": "java-word-search.png",
+    "description": "A word search puzzle built in Java. Users enters a series of words he wants to find in the puzzle. The application then generates a word search puzzle with the user entered words randomly placed in between, for the user to find."
   },
   {
     "name": "Unity C# Slot Machine",
