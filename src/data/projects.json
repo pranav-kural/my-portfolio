@@ -96,7 +96,7 @@
     "languages": ["JavaScript", "HTML", "CSS", "Vue"],
     "category": ["Personal", "Professional"],
     "sub_categories": ["VueJS"],
-    "screenshot": "my-porfolio-website.PNG",
+    "screenshot": "my-portfolio-website.PNG",
     "description": "My portfolio website built on top on VueJS"
   },
   {
