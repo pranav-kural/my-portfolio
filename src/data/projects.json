@@ -27,7 +27,7 @@
     "category": ["School"],
     "sub_categories": ["ExpressJS", "NodeJS", "Bootstrap"],
     "screenshot": "my-family-website.png",
-    "description": "A small website about my cute family"
+    "description": "A small website about my cute family."
   },
   {
     "name": "ES6 Tutorial",
@@ -47,7 +47,7 @@
     "category": ["School"],
     "sub_categories": ["Site Design", "Site Planning"],
     "screenshot": "my-barrie-examiner.png",
-    "description": "My Barrie Examiner is a highly interactive news website."
+    "description": "My Barrie Examiner is a highly interactive news website. Displays the use of Grid system for styling the web pages. No use of any third party CSS framework, hand written and designed with my own CSS coding."
   },
   {
     "name": "Cars - Interactive List",
@@ -57,7 +57,7 @@
     "category": ["School"],
     "sub_categories": [],
     "screenshot": "cars-interactive-list.png",
-    "description": "Interactive List of Cars, generated using PHP."
+    "description": "Interactive List of Cars, generated using PHP. Users can see the list of cars, add new and also delete. Includes CRUD operations and user authentication."
   },
   {
     "name": "Webifiy",
@@ -100,14 +100,14 @@
     "description": "My portfolio website built on top on VueJS"
   },
   {
-    "name": "Java Horce Race",
+    "name": "Java Horse Race",
     "repo_url": "https://github.com/pranav-kural/Java-Horse-Race",
     "site_url": "",
     "languages": ["Java"],
     "category": ["School"],
     "sub_categories": [],
     "screenshot": "java-horse-race.png",
-    "description": ""
+    "description": "A Horse Race console game built with Java and love 💖"
   },
   {
     "name": "Java Word Search Puzzle",
