@@ -5,7 +5,7 @@
       <p>TBH, when I started learning JavaScript for the very first time, I hated it. But now that I've learnt it more deeply and worked with, I absolutely love it &#x1F60D</p>
       <p class="uk-text-meta uk-text-center">My skills in JavaScripts:</p>
     </div>
-    <div class="uk-grid uk-child-width-1-3@m uk-child-width-1-1@s uk-flex uk-flex-middle">
+    <div class="uk-grid uk-child-width-1-3@m uk-child-width-1-1@s">
       <ul class="uk-list uk-list-divider">
         <li>Good understanding of the JavaScript language</li>
         <li>TypeScript and CoffeScript</li>
