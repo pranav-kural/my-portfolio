@@ -1,4 +1,4 @@
-<template lang="html">
+﻿<template lang="html">
   <div id="myWork" class="uk-section">
     <div class="uk-container">
       <h1 class="uk-heading-divider uk-text-center">MY WORK<p class="uk-text-center uk-text-meta">All of the cool projects I've been lucky to work on by now 😊</p></h1>
@@ -22,15 +22,12 @@
         <div class="uk-grid uk-child-width-1-3@xl uk-child-width-1-2@m uk-child-width-1-1@s uk-width-expand">
           <div class="uk-card uk-card-default uk-card-body" v-for="project in listOfProjects" uk-scrollspy="cls:uk-animation-fade">
             <div class="project_cards">
-              <div class="uk-card-header uk-cover-container">
-                <div class="uk-grid">
-                  <div class="uk-width-3-5 uk-padding-remove">
-                    <img src="src/assets/logo.png" alt="" uk-cover>
-                  </div>
-                  <div class="uk-width-2-5 uk-padding-remove">
-                      <div class="uk-badge uk-label project-badge" v-bind:class="{ 'pink': (badge == 'Personal'), 'green': (badge == 'School') }"  v-for="badge in project.category">
-                        {{ badge }}
-                      </div>
+              <div id="project_screenshot" class="uk-card-header uk-cover-container" v-bind:style="'background: url(src/assets/images/project_screenshots/'.concat(project.screenshot).concat(')')">
+                <div class="uk-align-right">
+                  <div class="uk-column-1-1" v-for="badge in project.category">
+                    <div class="uk-badge uk-label project-badge" v-bind:class="{ 'pink': (badge == 'Personal'), 'green': (badge == 'School') }">
+                      {{ badge }}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -64,7 +61,7 @@ export default {
   data() {
     return {
       projects: projects,
-      selectedLanguage: "NodeJS"
+      selectedLanguage: "all"
     }
   },
   computed: {
@@ -100,6 +97,13 @@ h1 {
 
 .project_cards .uk-card-header.uk-cover-container {
   min-height: 130px;
+}
+
+div#project_screenshot {
+  background-size:cover !important;
+  background-repeat:no-repeat !important;
+  border: 0px #fff solid;
+  border-radius: 50px 50px 0px 0px;
 }
 
 .pink {
