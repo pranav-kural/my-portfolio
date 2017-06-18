@@ -6,7 +6,7 @@
     "languages": ["HTML", "JavaScript", "CSS"],
     "category": ["School", "Personal"],
     "sub_categories": ["AngularJS", "Semantic-UI", "MaterializeCSS", "Angular Material"],
-    "screenshot": "learn-sdlc.png",
+    "screenshot": "learn-sdlc.PNG",
     "description": "A fun way to learn System Development Life Cycle."
   },
   {
@@ -16,7 +16,7 @@
     "languages": ["JavaScript", "HTML", "CSS"],
     "category": ["School"],
     "sub_categories": ["ExpressJS", "NodeJS", "Bootstrap", "MEAN", "MongoDB"],
-    "screenshot": "vendre.png",
+    "screenshot": "vendre.PNG",
     "description": "A classified website built on Node, Express and MongoDB. A NodeJS application built on Express framework. Using passport for authentication and MongoDB and Mongoose for managing products and data."
   },
   {
@@ -26,7 +26,7 @@
     "languages": ["JavaScript", "HTML", "CSS"],
     "category": ["School"],
     "sub_categories": ["ExpressJS", "NodeJS", "Bootstrap"],
-    "screenshot": "my-family-website.png",
+    "screenshot": "my-family-website.PNG",
     "description": "A small website about my cute family."
   },
   {
@@ -36,7 +36,7 @@
     "languages": ["JavaScript", "HTML"],
     "category": ["School"],
     "sub_categories": ["ES6", "ECMAScript2015"],
-    "screenshot": "es6-tutorial.png",
+    "screenshot": "es6-tutorial.PNG",
     "description": "A tutorial introducing some of the new features in the ECMAScript 2015"
   },
   {
@@ -46,7 +46,7 @@
     "languages": ["JavaScript", "HTML", "CSS"],
     "category": ["School"],
     "sub_categories": ["Site Design", "Site Planning"],
-    "screenshot": "my-barrie-examiner.png",
+    "screenshot": "my-barrie-examiner.PNG",
     "description": "My Barrie Examiner is a highly interactive news website. Displays the use of Grid system for styling the web pages. No use of any third party CSS framework, hand written and designed with my own CSS coding."
   },
   {
@@ -56,7 +56,7 @@
     "languages": ["PHP", "JavaScript", "HTML", "CSS"],
     "category": ["School"],
     "sub_categories": [],
-    "screenshot": "cars-interactive-list.png",
+    "screenshot": "cars-interactive-list.PNG",
     "description": "Interactive List of Cars, generated using PHP. Users can see the list of cars, add new and also delete. Includes CRUD operations and user authentication."
   },
   {
@@ -66,7 +66,7 @@
     "languages": ["PHP", "JavaScript", "HTML", "CSS"],
     "category": ["School"],
     "sub_categories": ["CRUD"],
-    "screenshot": "webifiy.png",
+    "screenshot": "webifiy.PNG",
     "description": "The Ultimate directory of some of the most amazing e-commerce stores. Demonstrating PHP skills along with doing CRUD operations with it."
   },
   {
@@ -76,7 +76,7 @@
     "languages":  ["JavaScript", "HTML", "CSS", "jQuery"],
     "category": ["Personal"],
     "sub_categories": ["AJAX", "jQuery"],
-    "screenshot": "ajax-live-search-app.png",
+    "screenshot": "ajax-live-search-app.PNG",
     "description": "An AJAX based live search app. Requesting, searching and supplying the data through jQuery and AJAX."
   },
   {
@@ -86,7 +86,7 @@
     "languages": ["PHP", "JavaScript", "HTML", "CSS"],
     "category": ["School"],
     "sub_categories": ["PHP-ActiveRecord"],
-    "screenshot": "movie-arena.png",
+    "screenshot": "movie-arena.PNG",
     "description": "A PHP based movies collection website. Demonstrats self built php based MVC framework and handling of CRUD operations and authentication."
   },
   {
@@ -96,7 +96,7 @@
     "languages": ["JavaScript", "HTML", "CSS", "Vue"],
     "category": ["Personal", "Professional"],
     "sub_categories": ["VueJS"],
-    "screenshot": "my-porfolio-website.png",
+    "screenshot": "my-porfolio-website.PNG",
     "description": "My portfolio website built on top on VueJS"
   },
   {
@@ -106,7 +106,7 @@
     "languages": ["Java"],
     "category": ["School"],
     "sub_categories": [],
-    "screenshot": "java-horse-race.png",
+    "screenshot": "java-horse-race.PNG",
     "description": "A Horse Race console game built with Java and love 💖"
   },
   {
@@ -116,7 +116,7 @@
     "languages": ["Java"],
     "category": ["Personal"],
     "sub_categories": [],
-    "screenshot": "java-word-search.png",
+    "screenshot": "java-word-search.PNG",
     "description": "A word search puzzle built in Java. Users enters a series of words he wants to find in the puzzle. The application then generates a word search puzzle with the user entered words randomly placed in between, for the user to find."
   },
   {
@@ -126,7 +126,7 @@
     "languages": ["C#"],
     "category": ["School", "Personal"],
     "sub_categories": [],
-    "screenshot": "unity-c-slot-machine.png",
+    "screenshot": "unity-c-slot-machine.PNG",
     "description": "A slot machine game built using Unity platform and C#"
   },
   {
@@ -136,7 +136,7 @@
     "languages": ["C#"],
     "category": ["School"],
     "sub_categories": [],
-    "screenshot": "dollar-computers.png",
+    "screenshot": "dollar-computers.PNG",
     "description": "A C# powered application built using Entity Framework to sell computers and hardware and store orders."
   },
   {
@@ -176,7 +176,7 @@
     "languages": ["PHP"],
     "category": ["School"],
     "sub_categories": ["Technical Communication"],
-    "screenshot": "PhpStorm-manual.png",
+    "screenshot": "PhpStorm-manual.PNG",
     "description": "A manual on usage of Jetbrain's most popular web development IDE - PhpStorm."
   },
   {
@@ -186,7 +186,7 @@
     "languages": [],
     "category": ["School"],
     "sub_categories": ["Project Management"],
-    "screenshot": "rocky-mountain-college-project.png",
+    "screenshot": "rocky-mountain-college-project.PNG",
     "description": "A RFP response project for Rocky Mountain College website redesign project."
   },
   {
@@ -196,7 +196,7 @@
     "languages": ["Java"],
     "category": ["School"],
     "sub_categories": ["Swing", "AWT", "GUI"],
-    "screenshot": "gas-station-software-application.png",
+    "screenshot": "gas-station-software-application.PNG",
     "description": ""
   }
 ]
