@@ -55,4 +55,8 @@ export default {
 .uk-navbar-nav>li>a {
   height: 50px
 }
+/* White background fro navigation */
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background: #fff;
+}
 </style>
