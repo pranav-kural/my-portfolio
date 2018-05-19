@@ -7,8 +7,57 @@
               <div class="uk-grid-match uk-child-width-1-1" uk-grid>
                   <div>
                       <div class="uk-card uk-card-default uk-card-body">
+                          <h4 class="uk-text-left uk-margin-remove">Operations Analyst</h4>
+                          <p class="uk-margin-remove"><strong class="uk-text-left">BMO Bank of Montreal</strong><span class="rightFloat">January 2018 - Present</span></p>
+                          <p class="uk-text-small">
+                            I'm working as an Applications Analyst in the Systems Operations Centre of the BMO Financial Group's Barrie Data Centre. The Systems Operations Centre provides 7X24X365 monitoring of all the BMO Financial Group's technology systems, services, and applications worldwide.
+                            <br><br>
+                            I was rehired on this position after my co-op ended and I graduated from my Computer programming diploma. My role was changed slightly from providing server/systems support to providing applications support. My responsibilities included:
+                            <br>
+                              <ul>
+                                  <li>Triaging system and application related issues in production and that cause critical constraints to the business</li>
+                                  <li>Monitor performance and availability of systems, applications and links to ensure full bank functionality across North America</li>
+                                  <li>Work within ESP batch scheduler, and resubmit failing jobs to ensure batch/report SLAs are met</li>
+                                  <li>Provide 7/24/365 1st and 2nd level support in a complex IT environment consisting of servers (Windows, Sun, Linux) and Mainframe using ESP and BladeLogic</li>
+                                  <li>Leveraging legacy system functionalities for application related issues, for example, NDM, Tandem, TSO, CICS, JCL</li>
+                                  <li>Incident & Change Management: Low, Medium and Critical issues.</li>
+                              </ul>
+                              <br>
+                          </p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="uk-card uk-card-default uk-card-body">
+                          <h4 class="uk-text-left uk-margin-remove">Operations Analyst Co-op</h4>
+                          <p class="uk-margin-remove"><strong class="uk-text-left">BMO Bank of Montreal</strong><span class="rightFloat">September 2017 - December 2017</span></p>
+                          <p class="uk-text-small">
+                            I did my second co-op work term at Bank of Montreal’s Data Centre in Barrie as an Operations Analyst, working in the systems support team. My core responsibilities include:
+                            <br>
+                              <ul>
+                                  <li>Monitor availability and performance of hardware, systems, applications and links to ensure system and application service level availability objectives are met or exceeded</li>
+                                  <li>Directs, coordinates, and responds to automation prompts for operator intervention</li>
+                                  <li>Executes real time recovery actions under the direction of the Senior Operations Analyst and/or Operations Shift Manager to resolve critical issues that may impact established service levels</li>
+                                  <li>Incident management using BPPM, BladeLogic and Remedy, besides coordinating with the Support</li>
+                                  <li>Focus on maintaining a high quality and reliable work log as well as following all the documented procedural steps</li>
+                                  <li>Maintaining and updating the documentation for analyzing and resolving systems issues</li>
+                              </ul>
+                              <br>
+                          </p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="uk-card uk-card-default uk-card-body">
                           <h4 class="uk-text-left uk-margin-remove">Web Developer</h4>
-                          <p class="uk-margin-remove"><strong class="uk-text-left">Center for Applied Research and Innovation, Georgian College</strong><span class="rightFloat">September 2016 - Present</span></p>
+                          <p class="uk-margin-remove"><strong class="uk-text-left">Center for Applied Research and Innovation, Georgian College</strong><span class="rightFloat">January 2017 - August 2017</span></p>
+                          <p class="uk-text-small">
+                            I was rehired as a part-time web developer after my co-op ended in December, 2017. I worked on this role while completing my studies.
+                          </p>
+                      </div>
+                  </div>
+                  <div>
+                      <div class="uk-card uk-card-default uk-card-body">
+                          <h4 class="uk-text-left uk-margin-remove">Web Developer Co-op</h4>
+                          <p class="uk-margin-remove"><strong class="uk-text-left">Center for Applied Research and Innovation, Georgian College</strong><span class="rightFloat">September 2016 - December 2016</span></p>
                           <p class="uk-text-small">
                             I worked as a fulltime web developer and Student Researcher in my first Co-op at the Center for Innovation and Applied Research (CARI), Georgian College. My primary tasks included:
                             <br>
@@ -16,16 +65,13 @@
                                   <li>Developing website based on the WordPress platform</li>
                                   <li>Interacting with and managing clients</li>
                                   <li>Designing websites from scratch (wireframing and prototyping)</li>
-                                  <li>Building, customizing and designing the themes based on client needs and user cases</li>
-                                  <li>Customizing plugins to support client needs</li>
-                                  <li>Training clients to use their website and the CMS</li>
+                                  <li>Building, customizing and designing the themes based on client needs and user cases (CSS, JS, JQuery, HTML5, CSS frameworks like Bootstrap)</li>
+                                  <li>Customizing plugins to support client needs (PHP, JavaScript)</li>
+                                  <li>Training clients to use their website and the CMS (including WooCommerce training)</li>
                                   <li>Representing CARI at certain events organized by CARI, Georgian College or partners. (Voluntarily).</li>
+                                  <li>Interacting with clients to assess client needs and requirements as well as report the progress and get feedback (during each cycle of development) </li>
                               </ul>
-                              Besides the technical skills (WordPress, Website designing, User Experience and website development), I also got the opportunity to learn and gain a lot soft skills:
-                              interacting with clients, assessing client needs, reporting the work or tasks completed in department (or team) meetings, formal as well as informal communication with
-                              the clients (or prospective clients), representing the CARI at events and in client meetings.
                               <br>
-                              I was rehired as a part-time web developer in January 2017 after my co-op term ended in December 2016.
                           </p>
                       </div>
                   </div>

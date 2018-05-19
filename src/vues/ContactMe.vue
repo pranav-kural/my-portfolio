@@ -43,7 +43,7 @@
                 </div>
 
               </form>
-              <div></div>
+              <div><h3>{{ contacter_email }}</h3></div>
             </div>
           </div>
 
@@ -54,39 +54,14 @@
 </template>
 
 <script>
-// require the sendmail module
-const sendmail = require('sendmail')();
-
-// global variables to store the contacter's information
-let contacter_name = '';
-let contacter_email = '';
-let contacter_message = '';
-
-// fire the method to send the mail
-function sendthemail() {
-
-  // send the mail
-  sendmail({
-      from: contacter_email,
-      to: 'pranavkural042@gmail.com',
-      subject: 'Contact mail from Portfolio - pranav-kural',
-      text: contacter_message + " -by " + contacter_name,
-    }, function(err, reply) {
-      console.log(err && err.stack);
-      console.dir(reply);
-    });
-
-}
 
 export default {
   name: 'contactMe',
   data() {
     return {
-      contacter_name: contacter_name,
-      contacter_email: contacter_email,
-      contacter_message: contacter_message,
-      sendmail: sendmail,
-      sendthemail: sendthemail
+      contacter_name: "",
+      contacter_email: "",
+      contacter_message: ""
     }
   }
 }

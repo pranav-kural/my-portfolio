@@ -1,40 +1,43 @@
 ﻿<template lang="html">
   <div id="myWork" class="uk-section">
     <div class="uk-container">
-      <h1 class="uk-heading-divider uk-text-center">MY WORK<p class="uk-text-center uk-text-meta">All of the cool projects I've been lucky to work on by now 😊</p></h1>
+      <h1 class="uk-heading-divider uk-text-center">MY WORK<p class="uk-text-center uk-text-meta">All of the cool projects I've been fortunate to work on by now 😊</p></h1>
 
       <div class="uk-grid">
         <div id="projectsFilter" class="uk-visible@m uk-width-auto">
           <ul class="uk-tab-left" uk-tab>
             <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'all'">ALL</a></li>
-            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'JavaScript'">JavaScript</a></li>
-            <li class="uk-active uk-padding-small"><a href="" v-on:click="selectedLanguage = 'NodeJS'">NodeJS</a></li>
-            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'C#'">C#</a></li>
+            <li class="uk-active uk-padding-small"><a href="" v-on:click="selectedLanguage = 'JavaScript'">JavaScript</a></li>
+            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'React'">React</a></li>
+            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'Angular'">Angular</a></li>
+            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'C#'">C#, ASP.NET</a></li>
             <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'Java'">Java</a></li>
+            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'Vue'">Vue</a></li>
+            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'Ionic'">Ionic</a></li>
             <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'PHP'">PHP</a></li>
-            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'HTML'">HTML</a></li>
             <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'CSS'">CSS</a></li>
-            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'AngularJS'">Angular</a></li>
-            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'Vue'">VueJS</a></li>
-            <li class="uk-padding-small"><a href="" v-on:click="selectedLanguage = 'Project Management'">Project Management</a></li>
           </ul>
         </div>
         <div class="uk-grid uk-child-width-1-3@xl uk-child-width-1-2@m uk-child-width-1-1@s uk-width-expand">
           <div class="uk-card uk-card-default uk-card-body" v-for="project in listOfProjects" uk-scrollspy="cls:uk-animation-fade">
             <div class="project_cards">
               <div id="project_screenshot" class="uk-card-header uk-cover-container" v-bind:style="'background: url(src/assets/images/project_screenshots/'.concat(project.screenshot).concat(')')">
-                <div class="uk-align-right">
+                <!-- <div class="uk-align-right">
                   <div class="uk-column-1-1" v-for="badge in project.category">
                     <div class="uk-badge uk-label project-badge" v-bind:class="{ 'pink': (badge == 'Personal'), 'green': (badge == 'School') }">
                       {{ badge }}
                     </div>
                   </div>
-                </div>
+                </div> -->
               </div>
               <div class="uk-card-body">
                 <div class="uk-card-title">{{ project.name }}</div>
                 <p>{{ project.description }}</p>
-                <p>{{ project.languages.toString().replace(/,/g , " | ") }}</p>
+                <p class="sub-categories">
+                  <span v-for="lang in project.languages">
+                    {{lang}}
+                  </span>
+                </p>
               </div>
               <div class="uk-card-footer">
                 <a v-bind:href="project.repo_url" class="uk-button gitBtn uk-button-small">
@@ -61,7 +64,7 @@ export default {
   data() {
     return {
       projects: projects,
-      selectedLanguage: "all"
+      selectedLanguage: "JavaScript"
     }
   },
   computed: {
@@ -136,6 +139,17 @@ div#project_screenshot {
 
 #projectsFilter .uk-padding-small {
   padding: 5px;
+}
+
+p.sub-categories span {
+    display: inline-block;
+    padding: 0.3em 0.9em;
+    margin: 0 0.5em 0.5em 0;
+    white-space: nowrap;
+    background-color: #f1f8ff;
+    border-radius: 3px;
+    color: #0366d6;
+    font-size: 0.8em;
 }
 
 .uk-tab>.uk-active>a {

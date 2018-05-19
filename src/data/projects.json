@@ -5,7 +5,7 @@
     "site_url": "http://gc200333253.computerstudi.es/teamNoClue/",
     "languages": ["HTML", "JavaScript", "CSS"],
     "category": ["School", "Personal"],
-    "sub_categories": ["AngularJS", "Semantic-UI", "MaterializeCSS", "Angular Material"],
+    "sub_categories": ["Angular", "Semantic-UI", "MaterializeCSS", "Angular Material"],
     "screenshot": "learn-sdlc.PNG",
     "description": "A fun way to learn System Development Life Cycle."
   },
@@ -15,7 +15,7 @@
     "site_url": "https://vendre.herokuapp.com/",
     "languages": ["JavaScript", "HTML", "CSS"],
     "category": ["School"],
-    "sub_categories": ["ExpressJS", "NodeJS", "Bootstrap", "MEAN", "MongoDB"],
+    "sub_categories": ["ExpressJS", "NodeJS", "Bootstrap", "MEAN", "MongoDB", "Angular"],
     "screenshot": "vendre.PNG",
     "description": "A classified website built on Node, Express and MongoDB. A NodeJS application built on Express framework. Using passport for authentication and MongoDB and Mongoose for managing products and data."
   },
@@ -95,9 +95,9 @@
     "site_url": "https://pranavkural.me/",
     "languages": ["JavaScript", "HTML", "CSS", "Vue"],
     "category": ["Personal", "Professional"],
-    "sub_categories": ["VueJS"],
+    "sub_categories": ["Vue"],
     "screenshot": "my-portfolio-website.PNG",
-    "description": "My portfolio website built on top on VueJS"
+    "description": "My portfolio website built using VueJS"
   },
   {
     "name": "Java Horse Race",
@@ -198,5 +198,95 @@
     "sub_categories": ["Swing", "AWT", "GUI"],
     "screenshot": "gas-station-software-application.PNG",
     "description": ""
+  },
+  {
+    "name": "Ski Day Counter",
+    "repo_url": "https://github.com/pranav-kural/Ski-Day-Counter",
+    "site_url": "",
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "category": ["Personal"],
+    "sub_categories": ["React"],
+    "screenshot": "ski-day-counter.PNG",
+    "description": "A web app to count backcountry and powder ski days built using React"
+  },
+  {
+    "name": "Bulletin Board",
+    "repo_url": "https://github.com/pranav-kural/bulletin-board",
+    "site_url": "",
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "category": ["Personal"],
+    "sub_categories": ["React"],
+    "screenshot": "bulletin-board.PNG",
+    "description": "A bulletin board app built using ReactJS"
+  },
+  {
+    "name": "Markd Out",
+    "repo_url": "https://github.com/pranav-kural/Markd-Out",
+    "site_url": "https://markd-out.stackblitz.io",
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "category": ["Personal"],
+    "sub_categories": ["React", "Bootstrap", "Ionic"],
+    "screenshot": "markd-out.PNG",
+    "description": "An ionic online web makdown parser built using React"
+  },
+  {
+    "name": "JavaScript Algorithm",
+    "repo_url": "https://github.com/pranav-kural/JavaScript-Algorithm-Challenges",
+    "site_url": "",
+    "languages": ["JavaScript"],
+    "category": ["Personal"],
+    "sub_categories": ["ES6"],
+    "screenshot": "js-al-ch.PNG",
+    "description": "FCC JavaScript Algorithm Scripting Challenges"
+  },
+  {
+    "name": "Reaculator",
+    "repo_url": "https://github.com/pranav-kural/React-Calculator",
+    "site_url": "",
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "category": ["Personal"],
+    "sub_categories": ["React", "Redux"],
+    "screenshot": "react-calculator.PNG",
+    "description": "A reactive web calculator built using React, Redux, a Lil of mind and a lot of love 💕"
+  },
+  {
+    "name": "WikiSearch",
+    "repo_url": "https://github.com/pranav-kural/wikipedia-search-app",
+    "site_url": "https://stackblitz.com/edit/ionic-wuaxml",
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "category": ["Personal"],
+    "sub_categories": ["Angular", "Bootstrap", "Ionic"],
+    "screenshot": "wikisearch.PNG",
+    "description": "A message board application based on Angular"
+  },
+  {
+    "name": "Drivo",
+    "repo_url": "https://github.com/pranav-kural/Drivo",
+    "site_url": "http://drivoapp.azurewebsites.net/",
+    "languages": ["C#", "HTML", "CSS"],
+    "category": ["Personal"],
+    "sub_categories": ["ASP.NET", "Bootstrap"],
+    "screenshot": "drivo.PNG",
+    "description": "A directory and listings website for finding Driving instructors and driving schools around your location"
+  },
+  {
+    "name": "Twitch Streamers",
+    "repo_url": "https://github.com/pranav-kural/Twitch-Streamers",
+    "site_url": "https://stackblitz.com/edit/fcc-twitch-api",
+    "languages": ["JavaScript", "HTML", "CSS"],
+    "category": ["Personal"],
+    "sub_categories": ["Angular", "Bootstrap", "Ionic"],
+    "screenshot": "twitch-streamers.PNG",
+    "description": "An ionic app to display twitch streamers info. Utilizes FCC's Twitch API"
+  },
+  {
+    "name": "VueQuizz",
+    "repo_url": "https://github.com/pranav-kural/VueQuizz",
+    "site_url": "",
+    "languages": ["Vue", "TypeScript", "C#"],
+    "category": ["Personal"],
+    "sub_categories": ["Vue", "ASP.NET"],
+    "screenshot": "",
+    "description": "An amazing quiz built with the awesome Vue framework 💚"
   }
 ]

@@ -1,6 +1,6 @@
 <template lang="html">
   <div id="mySkills" class="uk-container">
-    <h1 class="uk-heading-divider uk-text-center">MY SKILLS<p class="uk-text-center uk-text-meta">The skills and knowledge I've gained from schooling, self-learning and by building the awesome stuff shown above 😊</p></h1>
+    <h1 class="uk-heading-divider uk-text-center">MY SKILLS<p class="uk-text-center uk-text-meta">The skills and knowledge I've gained from schooling, self-learning and by working on all the awesome projects shown above 😊</p></h1>
     <div class="uk-visible@m">
       <ul class="uk-child-width-expand" uk-tab="animation: uk-animation-fade">
         <li class="uk-active"><a href="">Overall</a></li>
