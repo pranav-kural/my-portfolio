@@ -1,5 +1,5 @@
 <template lang="">
-  <div class="uk-container uk-flex uk-flex-center uk-padding">
+  <div id="education" class="uk-container uk-flex uk-flex-center uk-padding">
     <h1 class="uk-text-center uk-margin-remove" style="text-transform: uppercase;">My Education</h1>
     <hr class="divider">
       <div class="uk-section uk-section-primary uk-preserve-color uk-padding-remove uk-container-small">
