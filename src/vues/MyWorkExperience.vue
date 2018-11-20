@@ -7,20 +7,20 @@
               <div class="uk-grid-match uk-child-width-1-1" uk-grid>
                   <div>
                       <div class="uk-card uk-card-default uk-card-body">
-                          <h4 class="uk-text-left uk-margin-remove">Operations Analyst</h4>
+                          <h4 class="uk-text-left uk-margin-remove">IT Operations Analyst</h4>
                           <p class="uk-margin-remove"><strong class="uk-text-left">BMO Bank of Montreal</strong><span class="rightFloat">January 2018 - Present</span></p>
                           <p class="uk-text-small">
-                            I'm working as an Applications Analyst in the Systems Operations Centre of the BMO Financial Group's Barrie Data Centre. The Systems Operations Centre provides 7X24X365 monitoring of all the BMO Financial Group's technology systems, services, and applications worldwide.
-                            <br><br>
-                            I was rehired on this position after my co-op ended and I graduated from my Computer programming diploma. My role was changed slightly from providing server/systems support to providing applications support. My responsibilities included:
+                            I was rehired on the position of IT Operation Analyst after my co-op work term ended at the Bank of Montreal’s primary Data Centre in Barrie. I work primarily in the Applications Support Team in the Operations Control Center. My responsibilities included:
                             <br>
                               <ul>
-                                  <li>Triaging system and application related issues in production and that cause critical constraints to the business</li>
+                                  <li>Provide Tier I and II level support for triaging and initiating incident resolution for major systems and applications related issues affecting the bank on a medium to large scale</li>
                                   <li>Monitor performance and availability of systems, applications and links to ensure full bank functionality across North America</li>
-                                  <li>Work within ESP batch scheduler, and resubmit failing jobs to ensure batch/report SLAs are met</li>
-                                  <li>Provide 7/24/365 1st and 2nd level support in a complex IT environment consisting of servers (Windows, Sun, Linux) and Mainframe using ESP and BladeLogic</li>
-                                  <li>Leveraging legacy system functionalities for application related issues, for example, NDM, Tandem, TSO, CICS, JCL</li>
-                                  <li>Incident & Change Management: Low, Medium and Critical issues.</li>
+                                  <li>Performing initial investigation for any production batch failures through the SDSF, ISPF, InfoPac and server log analysis</li>
+                                  <li>Resolving the batch failures working with the Tier 2 and 3 support teams for the ESP application, including JCL/COBOL fixes, implementing patches, and re-scheduling of the batch jobs</li>
+                                  <li>Assisting in gathering and coordination of proper technical resources in an event of a production issue and ensuring batch/report SLAs are being met</li>
+                                  <li>Leveraging legacy system functionalities for application related issues and monitoring</li>
+                                  <li>Real-time high capacity transaction processing monitoring (IBM MQ, CICS, DB2), Daily batch transaction processing stream (COBOL, z/OS, Autosys, FTP) and Web services (CA Introscope, WebSphere)</li>
+                                  <li>Participating as a Mainframe Applications Analyst from Operations Control Room in enterprise-wide Disaster Recovery exercises and IPLs</li>
                               </ul>
                               <br>
                           </p>
@@ -28,18 +28,19 @@
                   </div>
                   <div>
                       <div class="uk-card uk-card-default uk-card-body">
-                          <h4 class="uk-text-left uk-margin-remove">Operations Analyst Co-op</h4>
+                          <h4 class="uk-text-left uk-margin-remove">IT Operations Analyst Co-op</h4>
                           <p class="uk-margin-remove"><strong class="uk-text-left">BMO Bank of Montreal</strong><span class="rightFloat">September 2017 - December 2017</span></p>
                           <p class="uk-text-small">
-                            I did my second co-op work term at Bank of Montreal’s Data Centre in Barrie as an Operations Analyst, working in the systems support team. My core responsibilities include:
+                            I completed a 4 month co-op work term at Bank of Montreal’s Data Centre in Barrie as an IT Operations Analyst. My core responsibilities included:
                             <br>
                               <ul>
                                   <li>Monitor availability and performance of hardware, systems, applications and links to ensure system and application service level availability objectives are met or exceeded</li>
-                                  <li>Directs, coordinates, and responds to automation prompts for operator intervention</li>
-                                  <li>Executes real time recovery actions under the direction of the Senior Operations Analyst and/or Operations Shift Manager to resolve critical issues that may impact established service levels</li>
-                                  <li>Incident management using BPPM, BladeLogic and Remedy, besides coordinating with the Support</li>
-                                  <li>Focus on maintaining a high quality and reliable work log as well as following all the documented procedural steps</li>
-                                  <li>Maintaining and updating the documentation for analyzing and resolving systems issues</li>
+                                  <li>Direct, coordinate, and respond to automation prompts for operator intervention</li>
+                                  <li>Executes real time recovery actions to resolve critical issues that impact established service levels</li>
+                                  <li>Incident management using BPPM, BladeLogic and Remedy, following the in-place ITIL process</li>
+                                  <li>Responsibly maintaining and updating technical documentations pertaining to certain server systems issues for faster recovery and incident resolution in case of future re-occurrence of the issue</li>
+                                  <li>Actively monitor the banks mainframe environments and systems messages for any issues or messages which require operator responses</li>
+                                  <li>Assist Tier 3 support Team with incident resolution when required</li>
                               </ul>
                               <br>
                           </p>
@@ -50,7 +51,7 @@
                           <h4 class="uk-text-left uk-margin-remove">Web Developer</h4>
                           <p class="uk-margin-remove"><strong class="uk-text-left">Center for Applied Research and Innovation, Georgian College</strong><span class="rightFloat">January 2017 - August 2017</span></p>
                           <p class="uk-text-small">
-                            I was rehired as a part-time web developer after my co-op ended in December, 2017. I worked on this role while completing my studies.
+                            I was rehired as Web Developer by the Center for Innovation and Applied Research, Georgian College, after my co-op ended in December, 2016. I worked on this role while completing my studies. My responsibilities remained the same as below, but with the inclusion of Angular and NodeJS based front-end projects
                           </p>
                       </div>
                   </div>
@@ -59,17 +60,17 @@
                           <h4 class="uk-text-left uk-margin-remove">Web Developer Co-op</h4>
                           <p class="uk-margin-remove"><strong class="uk-text-left">Center for Applied Research and Innovation, Georgian College</strong><span class="rightFloat">September 2016 - December 2016</span></p>
                           <p class="uk-text-small">
-                            I worked as a fulltime web developer and Student Researcher in my first Co-op at the Center for Innovation and Applied Research (CARI), Georgian College. My primary tasks included:
+                            I completed a 4 month Co-op work term as a Web Developer and Student Researcher in the Center for Innovation and Applied Research (CARI), Georgian College. My primary tasks included:
                             <br>
                               <ul>
-                                  <li>Developing website based on the WordPress platform</li>
-                                  <li>Interacting with and managing clients</li>
-                                  <li>Designing websites from scratch (wireframing and prototyping)</li>
-                                  <li>Building, customizing and designing the themes based on client needs and user cases (CSS, JS, JQuery, HTML5, CSS frameworks like Bootstrap)</li>
-                                  <li>Customizing plugins to support client needs (PHP, JavaScript)</li>
-                                  <li>Training clients to use their website and the CMS (including WooCommerce training)</li>
-                                  <li>Representing CARI at certain events organized by CARI, Georgian College or partners. (Voluntarily).</li>
-                                  <li>Interacting with clients to assess client needs and requirements as well as report the progress and get feedback (during each cycle of development) </li>
+                                  <li>Taking over the responsibility to complete outstanding web projects within a strict timeline</li>
+                                  <li>Working with existing and new clients directly in understanding their business requirement and expectations with regards to the web projects</li>
+                                  <li>Planning and developing website backend and front-end, including hosting setup, website setup, theme development/modification, plugin integrations and database setup</li>
+                                  <li>Website design, including wireframe, prototype and mockups development as well as communicating and getting approval for the designs at each stage from the client</li>
+                                  <li>Building, customizing and designing the themes based on client needs and user cases (Advanced CSS, JS, JQuery, HTML5, PHP)</li>
+                                  <li>Customizing plugins to support client needs (PHP, JavaScript, Software Design</li>
+                                  <li>Provided onsite training to clients for the website and the CMS (WooCommerce)</li>
+                                  <li>Representing CARI at events organized by CARI, Georgian College or partners</li>
                               </ul>
                               <br>
                           </p>
@@ -80,9 +81,7 @@
                         <h4 class="uk-text-left uk-margin-remove">Peer Tutor</h4>
                         <p class="uk-margin-remove"><strong class="uk-text-left">Georgian College</strong><span class="rightFloat">September 2016 - April 2017</span></p>
                         <p class="uk-text-small">
-                          Provides academic assistance to students experiencing difficulty in specific course content related to my field of study
-                          and expertise. This included providing tuitions to students, working with them to understand where they are having difficulties,
-                          motivating and encouraging them to learn more, clearing their doubts and showing them the best practices for programming and pointing them to helpful resources.
+                          Provided academic assistance to students experiencing difficulty in specific course content related to my field of study (Computer Programming). This included providing tuitions to students, working with them to understand where they are having difficulties, motivating and encouraging them to learn more. 
                         </p>
                     </div>
                   </div>

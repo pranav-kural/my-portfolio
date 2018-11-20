@@ -8,10 +8,8 @@
      </div>
      <div class="uk-width-3-5 uk-flex uk-flex-center uk-padding">
        <div id="aboutMeContainer" class="uk-padding">
-         <h1>Hey, There!</h1>
-         <p>
-           <strong>I'm Pranav.</strong> I'm an ambitious problem solver committed to improving business productivity and efficiency. I’m an enthusiastic web developer, who love to develop and design web applications, be it designing user-facing web apps or programming self-contained micro-services or building a data models for data-intensive web apps. I’m passionate to contribute, collaborate, grow & learn. I’m adept in working in both solo and team environment. I have a solid experience in web design and development, as well as infrastructure-wide applications and server support, especially in a large enterprise. Please feel free to explore my portfolio and leave me a message to get in touch.
-         </p>
+         <blockquote>"Our greatest glory is not in never falling, but in rising every time we fall."</blockquote>
+         <h6> - Confucius</h6>
        </div>
       </div>
     </div>
@@ -57,5 +55,6 @@ div#container {
 
 div#aboutMeContainer {
   border-radius: 30px;
+  font-family: Montserrat, Helvetica, sans-serif;
 }
 </style>

@@ -11,7 +11,7 @@
         <li>TypeScript and CoffeScript</li>
         <li>JQuery and JQuery UI</li>
         <li>NodeJS (Express, Meteor)</li>
-        <li>Up-to-date with ES6 or ECMAScript 2015</li>
+        <li>Up-to-date with ES7 Specifications</li>
         <li>Using trancompilers, task runners and other build tools like Babel, Browserify, Gulp, Grunt and Webpack</li>
     </ul>
     <div class="uk-margin-top uk-visible@m">
