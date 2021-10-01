@@ -11,7 +11,7 @@
     "start": "node server.js"
   },
   "dependencies": {
-    "highcharts": "^5.0.11",
+    "highcharts": "^9.0.0",
     "highcharts-more": "^0.1.2",
     "highcharts-solid-gauge": "^0.1.2",
     "nodemailer": "^4.0.1",
