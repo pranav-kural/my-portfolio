@@ -8,6 +8,7 @@
     "start": "node server.js"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "highcharts": "^9.2.2",
     "highcharts-more": "^0.1.2",
     "highcharts-solid-gauge": "^0.1.2",
