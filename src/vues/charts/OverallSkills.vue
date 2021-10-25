@@ -72,9 +72,9 @@ var options = {
         }
     },
     series: [{
-    		showInLegend: false,
-    		name:'My Skills',
-        data: [63.9, 71.5, 69.4, 88.2, 73.0, 90.0, 99.0, 81.0, 49.9]
+       showInLegend: false,
+       name:'My Skills',
+       data: [63.9, 71.5, 69.4, 88.2, 73.0, 90.0, 99.0, 81.0, 49.9]
 
     }]
 };

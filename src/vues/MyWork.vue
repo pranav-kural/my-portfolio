@@ -1,7 +1,7 @@
 ﻿<template lang="html">
   <div id="myWork" class="uk-section">
     <div class="uk-container">
-      <h1 class="uk-heading-divider uk-text-center">MY WORK<p class="uk-text-center uk-text-meta">All of the cool projects I've been fortunate to work on by now 😊</p></h1>
+      <h1 class="uk-heading-divider uk-text-center">MY WORK<p class="uk-text-center uk-text-meta">Some of my personal and academic projects 😊</p></h1>
 
       <div class="uk-grid">
         <div id="projectsFilter" class="uk-visible@m uk-width-auto">
@@ -19,9 +19,9 @@
           </ul>
         </div>
         <div class="uk-grid uk-child-width-1-3@xl uk-child-width-1-2@m uk-child-width-1-1@s uk-width-expand">
-          <div class="uk-card uk-card-default uk-card-body" v-for="project in listOfProjects" uk-scrollspy="cls:uk-animation-fade">
+          <div class="uk-card uk-card-default uk-card-body" v-for="project in listOfProjects" v-bind:key="project.name" uk-scrollspy="cls:uk-animation-fade">
             <div class="project_cards">
-              <div id="project_screenshot" class="uk-card-header uk-cover-container" v-bind:style="'background: url(src/assets/images/project_screenshots/'.concat(project.screenshot).concat(')')">
+              <div id="project_screenshot" class="uk-card-header uk-cover-container" v-bind:style="'background: url(/img/project_screenshots/'.concat(project.screenshot).concat(')')">
                 <!-- <div class="uk-align-right">
                   <div class="uk-column-1-1" v-for="badge in project.category">
                     <div class="uk-badge uk-label project-badge" v-bind:class="{ 'pink': (badge == 'Personal'), 'green': (badge == 'School') }">
@@ -34,7 +34,7 @@
                 <div class="uk-card-title">{{ project.name }}</div>
                 <p>{{ project.description }}</p>
                 <p class="sub-categories">
-                  <span v-for="lang in project.languages">
+                  <span v-for="lang in project.languages" v-bind:key="lang">
                     {{lang}}
                   </span>
                 </p>
@@ -43,9 +43,9 @@
                 <a v-bind:href="project.repo_url" class="uk-button gitBtn uk-button-small">
                   <span><i class="fa fa-github" aria-hidden="true"></i> Repo</span>
                 </a>
-                <a v-if="project.site_url != ''" v-bind:href="project.site_url" class="uk-button uk-button-primary siteBtn uk-button-small">
+                <!-- <a v-if="project.site_url != ''" v-bind:href="project.site_url" class="uk-button uk-button-primary siteBtn uk-button-small">
                   <span>Go to site</span>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -158,6 +158,10 @@ p.sub-categories span {
 
 .uk-card-footer a {
   margin-right: 1em;
+}
+
+.uk-card-default {
+  box-shadow: none;
 }
 
 </style>

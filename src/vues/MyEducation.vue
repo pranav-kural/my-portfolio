@@ -5,12 +5,20 @@
       <div class="uk-section uk-section-primary uk-preserve-color uk-padding-remove uk-container-small">
           <div class="uk-padding">
               <div class="uk-grid-match uk-child-width-1-1" uk-grid>
+                <div>
+                      <div class="uk-card uk-card-default uk-card-body">
+                          <h4 class="uk-text-left uk-margin-remove">Honours Bachelor of Science in Computer Science</h4>
+                          <p class="uk-margin-remove"><strong class="uk-text-left">University of Ottawa</strong><span class="rightFloat">September 2021 - current</span></p>
+                          <!-- <h6 class="uk-text-left grade">CGPA not available yet</h6> -->
+                          <p class="uk-text-small">Currently enrolled in BSc Computer Science at University of Ottawa.</p>
+                      </div>
+                  </div>
                   <div>
                       <div class="uk-card uk-card-default uk-card-body">
                           <h4 class="uk-text-left uk-margin-remove">Computer Programming Diploma</h4>
                           <p class="uk-margin-remove"><strong class="uk-text-left">Georgian College</strong><span class="rightFloat">January 2016 - December 2018</span></p>
                           <h6 class="uk-text-left grade">Overall CGPA 4.0</h6>
-                          <p class="uk-text-small">This program helped me build the most relevant and popular skills of the software and web development industry. As I progressed through the two years, the courses I took helped me gain insight and experience in the field of Software and Web development, Systems Analysis as well as Project management. A structured approach to problem solving, effective oral and written communications, and attention to standards and documentation were stressed throughout the program. Industry trends and requirements were continually monitored to ensure curriculum remains current and relevant. This not only helped in gaining some highly in-demand industry skills, but also helped in becoming an effective learner.</p>
+                          <p class="uk-text-small">This program helped me build the most relevant and popular skills of the software and web development industry. As I progressed through the two years, the courses I took helped me gain insight and experience in the field of software and web development, systems analysis as well as project management.</p>
                       </div>
                   </div>
                   <div>

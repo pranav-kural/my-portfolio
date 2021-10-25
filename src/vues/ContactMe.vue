@@ -1,6 +1,6 @@
 <template>
 <div id="contactMe" class="uk-flex uk-flex-center uk-flex-middle">
-  <h2>I would love to hear from you &#x1F917</h2>
+  <h2>I would love to hear from you</h2>
   <p>Please feel free to connect with me for absolutely anything. Would love to hear from you.</p>
   <a id="modal_full_button" class="uk-button uk-button-default" href="#modal-full" uk-toggle>Get in Touch</a>
 

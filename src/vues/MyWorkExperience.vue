@@ -8,7 +8,7 @@
                   <div>
                       <div class="uk-card uk-card-default uk-card-body">
                           <h4 class="uk-text-left uk-margin-remove">IT Operations Analyst</h4>
-                          <p class="uk-margin-remove"><strong class="uk-text-left">BMO Bank of Montreal</strong><span class="rightFloat">January 2018 - Present</span></p>
+                          <p class="uk-margin-remove"><strong class="uk-text-left">BMO Bank of Montreal</strong><span class="rightFloat">January 2018 - August 2021</span></p>
                           <p class="uk-text-small">
                             I was rehired on the position of IT Operation Analyst after my co-op work term ended at the Bank of Montreal’s primary Data Centre in Barrie. I work primarily in the Applications Support Team in the Operations Control Center. My responsibilities included:
                             <br>

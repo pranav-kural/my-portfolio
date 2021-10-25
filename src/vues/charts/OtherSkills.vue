@@ -52,7 +52,7 @@
           <li>IDE for Web development: WebStorm and PhpStorm</li>
           <li>IDE for Java: JetBrains IntelliJ IDEA and NetBeans</li>
           <li>IDE for C#: Visual Studio 2017</li>
-          <li>For GitHub: I like using command line or terminal &#x1F60B</li>
+          <li>For GitHub: I like using command line or terminal</li>
         </ul>
       </div>
       <div class="uk-padding-small">
