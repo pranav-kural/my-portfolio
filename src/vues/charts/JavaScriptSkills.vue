@@ -2,7 +2,7 @@
   <div class="uk-column-1-1">
     <div class="uk-text-small uk-text-center">
       <h2 class="uk-visible@m uk-heading-divider">My JavaScript Skills</h2>
-      <p>TBH, when I started learning JavaScript for the very first time, I hated it. But now that I've learnt it more deeply and worked with, I absolutely love it &#x1F60D</p>
+      <p>TBH, when I started learning JavaScript for the very first time, I hated it. But now that I've learnt it more deeply and worked with, I absolutely love it</p>
       <p class="uk-text-meta uk-text-center">My skills in JavaScripts:</p>
     </div>
     <div class="uk-grid uk-child-width-1-3@m uk-child-width-1-1@s">
@@ -22,7 +22,7 @@
       <li>Knowledge of AngularJS, Angular (2 & 4), React, Vue.js and Inferno.js</li>
       <li>Knowledge of Asynchronous programming (observable streams and using promises).</li>
       <li>Planning, creating and integrating Web APIs and working with external APIs</li>
-      <li>Knowledge and understanding of the state management libraries like Redux &#x1F499, RxJS and Vuex.</li>
+      <li>Knowledge and understanding of the state management libraries like Redux, RxJS and Vuex.</li>
   </ul>
    </div>
   </div>
@@ -30,9 +30,9 @@
 
 <script>
 var Highcharts = require('highcharts');
-require('highcharts-more')(Highcharts);
+require('highcharts/highcharts-more')(Highcharts);
 // Rounded panes
-require('highcharts/modules/solid-gauge')(Highcharts);
+require('highcharts-solid-gauge')(Highcharts);
 // Unrounded panes
 //require('highcharts-solid-gauge')(Highcharts);
 
@@ -110,15 +110,15 @@ let options = {
     },
 
     series: [{
-        name: 'Angular',
-      	marker: {enabled:false},
-      	borderColor: colors[0],
-      	color: colors[0],
-        data: [{
-            color: colors[0],
-            radius: '112%',
-            innerRadius: '88%',
-            y: 80
+    name: 'Angular',
+    marker: {enabled:false},
+    borderColor: colors[0],
+    color: colors[0],
+    data: [{
+        color: colors[0],
+        radius: '112%',
+        innerRadius: '88%',
+        y: 80
         }],
       showInLegend: true
     }, {
